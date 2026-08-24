@@ -1,0 +1,260 @@
+@media (max-width: 650px) {
+
+  .page {
+    padding: 20px 12px;
+  }
+
+  .hero-card {
+    padding: 32px 18px 26px;
+    border-radius: 30px;
+  }
+
+  .top-label {
+    font-size: 9px;
+    letter-spacing: 2px;
+  }
+
+  h1 {
+    font-size: 43px;
+  }
+
+  .subtitle {
+    margin-bottom: 28px;
+    font-size: 12px;
+  }
+
+  .route {
+    grid-template-columns: .8fr 1.3fr .8fr;
+    gap: 5px;
+    margin-bottom: 25px;
+  }
+
+  .city .flag {
+    font-size: 28px;
+  }
+
+  .city strong {
+    font-size: 14px;
+  }
+
+  .city span:last-child {
+    font-size: 9px;
+  }
+
+  .flight-path {
+    height: 45px;
+  }
+
+  .path-line {
+    top: 23px;
+  }
+
+  .plane {
+    font-size: 21px;
+  }
+
+  .countdown {
+    gap: 5px;
+  }
+
+  .time-unit {
+    min-width: 58px;
+  }
+
+  .time-unit span {
+    font-size: 42px;
+  }
+
+  .time-unit small {
+    font-size: 7px;
+    letter-spacing: 1px;
+  }
+
+  .colon {
+    padding-top: 4px;
+    font-size: 27px;
+  }
+
+  .date-pill {
+    font-size: 9px;
+    margin: 21px auto 25px;
+  }
+
+  .daily-card {
+    gap: 13px;
+    padding: 15px;
+    border-radius: 20px;
+  }
+
+  .daily-emoji {
+    width: 56px;
+    height: 56px;
+    border-radius: 17px;
+    font-size: 29px;
+  }
+
+  .daily-kicker {
+    font-size: 7px;
+  }
+
+  .daily-content h2 {
+    font-size: 21px;
+  }
+
+  .daily-content p {
+    font-size: 11px;
+  }
+
+  .bottom-note {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 390px) {
+
+  h1 {
+    font-size: 38px;
+  }
+
+  .time-unit {
+    min-width: 50px;
+  }
+
+  .time-unit span {
+    font-size: 36px;
+  }
+
+  .colon {
+    font-size: 22px;
+  }
+
+  .daily-card {
+    align-items: flex-start;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+
+@media (max-width: 650px) {
+
+  .journey-section {
+    padding: 30px 18px;
+    border-radius: 27px;
+  }
+
+  .section-heading h2 {
+    font-size: 28px;
+  }
+
+  .journey-route {
+    grid-template-columns: 65px 1fr 65px;
+    gap: 10px;
+    margin-top: 28px;
+  }
+
+  .journey-city span {
+    font-size: 23px;
+  }
+
+  .journey-city strong {
+    font-size: 11px;
+  }
+
+  .journey-city small {
+    font-size: 7px;
+  }
+
+  .journey-progress-info {
+    font-size: 8px;
+  }
+
+  .next-milestone {
+    padding: 13px;
+  }
+
+  .next-milestone-icon {
+    width: 42px;
+    height: 42px;
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 650px) {
+
+  .letters-section {
+    padding: 30px 18px;
+    border-radius: 27px;
+  }
+
+  .letters-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .letter-card {
+    min-height: 190px;
+  }
+
+  .surprise-card {
+    padding: 38px 20px;
+    border-radius: 27px;
+  }
+
+  .surprise-icon {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media (max-width: 650px) {
+
+  .living-section {
+    padding: 25px 16px;
+    border-radius: 26px;
+  }
+
+  .city-clocks {
+    grid-template-columns: 1fr 30px 1fr;
+    gap: 5px;
+  }
+
+  .city-clock {
+    padding: 13px 8px;
+  }
+
+  .clock-flag {
+    font-size: 21px;
+  }
+
+  .clock-mood {
+    font-size: 15px;
+  }
+
+  .city-clock strong {
+    font-size: 11px;
+  }
+
+  .clock-country {
+    font-size: 7px;
+  }
+
+  .live-time {
+    font-size: 15px;
+    letter-spacing: .5px;
+  }
+
+  .mood-label {
+    font-size: 7px;
+  }
+
+  .living-message {
+    font-size: 14px;
+  }
+
+}

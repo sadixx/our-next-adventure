@@ -1,0 +1,38 @@
+/* =========================================
+   PHASE 4 — UNLOCKED LETTER POLISH
+   ========================================= */
+
+.letter-card.unlocked {
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255,248,250,.9),
+      rgba(255,241,245,.75)
+    );
+
+  box-shadow:
+    0 8px 25px
+    rgba(191,101,130,.08);
+}
+
+.letter-card.unlocked::before {
+  content: "";
+
+  position: absolute;
+
+  top: -1px;
+  left: 18px;
+  right: 18px;
+
+  height: 2px;
+
+  border-radius: 10px;
+
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      rgba(207,120,145,.45),
+      transparent
+    );
+}

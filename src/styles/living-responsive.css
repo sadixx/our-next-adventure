@@ -1,0 +1,63 @@
+/* =========================================
+   PHASE 4 — MOBILE LIVING EXPERIENCE
+   ========================================= */
+
+@media (max-width: 650px) {
+
+  .living-section {
+    padding: 25px 16px;
+    border-radius: 26px;
+  }
+
+  .living-header h2 {
+    font-size: 27px;
+  }
+
+  .living-header p {
+    font-size: 9px;
+  }
+
+  .city-clocks {
+    grid-template-columns:
+      1fr
+      30px
+      1fr;
+
+    gap: 5px;
+  }
+
+  .city-clock {
+    padding: 13px 8px;
+  }
+
+  .clock-flag {
+    font-size: 21px;
+  }
+
+  .clock-mood {
+    font-size: 15px;
+  }
+
+  .city-clock strong {
+    font-size: 11px;
+  }
+
+  .clock-country {
+    font-size: 7px;
+  }
+
+  .live-time {
+    font-size: 15px;
+    letter-spacing: .5px;
+  }
+
+  .mood-label {
+    font-size: 7px;
+  }
+
+  .living-message {
+    font-size: 14px;
+    line-height: 1.35;
+  }
+
+}

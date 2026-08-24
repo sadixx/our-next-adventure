@@ -1,0 +1,30 @@
+/* =========================================
+   PHASE 4 — LIVE FLIGHT POSITION
+   ========================================= */
+
+.plane {
+  left: var(--flight-progress, 0%);
+
+  transition:
+    left 1s linear;
+
+  animation:
+    heroPlaneFloat 2.8s ease-in-out infinite;
+}
+
+@keyframes heroPlaneFloat {
+
+  0%,
+  100% {
+    transform:
+      translate(-50%, 0)
+      rotate(-2deg);
+  }
+
+  50% {
+    transform:
+      translate(-50%, -6px)
+      rotate(2deg);
+  }
+
+}
